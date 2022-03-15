@@ -25,8 +25,8 @@ Consumes AWS ELB (Elastic Load Balancer), NLB (Network Load Balancer), ALB (Appl
    
 
 # INGESTING S3 LOGS
-1. Run the script as a root 
-   * **sudo bash alb-elk-logs.sh**
+1. Run the script as a root & give the path of folder in which logs will get downloaded.
+   * **sudo bash alb-elk-logs.sh  (logs-download-directory-path)**
 
 **Check the kibana in browser for visualization** 
  
